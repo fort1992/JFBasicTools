@@ -1,0 +1,6 @@
+framework module JFBasicTools {
+  umbrella header "JFBasicTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

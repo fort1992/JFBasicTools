@@ -1,0 +1,30 @@
+{
+  "name": "JFBasicTools",
+  "version": "0.1.0",
+  "summary": "基础工具类20191120",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fort1992@163.com/JFBasicTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fort1992@163.com": "ios"
+  },
+  "source": {
+    "git": "https://github.com/fort1992/JFBasicTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JFBasicTools/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "Then": [
+
+    ]
+  }
+}

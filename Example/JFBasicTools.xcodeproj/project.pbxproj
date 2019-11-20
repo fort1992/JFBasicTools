@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		011106BBB4447915BC960D93 /* Pods-JFBasicTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFBasicTools_Example.debug.xcconfig"; path = "Target Support Files/Pods-JFBasicTools_Example/Pods-JFBasicTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		44DC1231AC54F98D3BDA1B88 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4987288F53D6E2FBA71320A6 /* JFBasicTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JFBasicTools.podspec; path = ../JFBasicTools.podspec; sourceTree = "<group>"; };
+		44DC1231AC54F98D3BDA1B88 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4987288F53D6E2FBA71320A6 /* JFBasicTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JFBasicTools.podspec; path = ../JFBasicTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		52A6A7EFD937E0F6AB7B894D /* Pods-JFBasicTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFBasicTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-JFBasicTools_Tests/Pods-JFBasicTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JFBasicTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFBasicTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B8C4FED3997225BAAD98549 /* Pods_JFBasicTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JFBasicTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77D1A44C7029E275616562C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		77D1A44C7029E275616562C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		93957FE1FD6AA88A0A330000 /* Pods-JFBasicTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFBasicTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JFBasicTools_Tests/Pods-JFBasicTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B73CEB9CD00EF9C966232E63 /* Pods_JFBasicTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JFBasicTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBB8AB567A2E6C56855C9AA /* Pods-JFBasicTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFBasicTools_Example.release.xcconfig"; path = "Target Support Files/Pods-JFBasicTools_Example/Pods-JFBasicTools_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +86,6 @@
 				93957FE1FD6AA88A0A330000 /* Pods-JFBasicTools_Tests.debug.xcconfig */,
 				52A6A7EFD937E0F6AB7B894D /* Pods-JFBasicTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -292,10 +292,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JFBasicTools_Example/Pods-JFBasicTools_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/JFBasicTools/JFBasicTools.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JFBasicTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

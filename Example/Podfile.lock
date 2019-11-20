@@ -1,0 +1,27 @@
+PODS:
+  - JFBasicTools (0.1.0):
+    - SnapKit
+    - Then
+  - SnapKit (4.2.0)
+  - Then (2.6.0)
+
+DEPENDENCIES:
+  - JFBasicTools (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - Then
+
+EXTERNAL SOURCES:
+  JFBasicTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JFBasicTools: f364509b85f60c7c061e9de3d99a601bc9c42a7d
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+
+PODFILE CHECKSUM: f4e30c784b68090ff4549d348af9282410bea532
+
+COCOAPODS: 1.8.3
