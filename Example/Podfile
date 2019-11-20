@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JFBasicTools_Example' do
+  pod 'JFBasicTools', :path => '../'
+
+  target 'JFBasicTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
