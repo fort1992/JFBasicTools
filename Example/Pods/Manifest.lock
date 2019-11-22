@@ -1,7 +1,27 @@
 PODS:
-  - JFBasicTools (0.1.0):
+  - Alamofire (4.9.1)
+  - HandyJSON (5.0.0)
+  - JFBasicTools (0.1.1):
+    - HandyJSON
+    - Kingfisher
+    - Moya
+    - RxCocoa
+    - RxSwift
     - SnapKit
     - Then
+  - Kingfisher (4.10.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
   - SnapKit (4.2.0)
   - Then (2.6.0)
 
@@ -10,6 +30,14 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - HandyJSON
+    - Kingfisher
+    - Moya
+    - Result
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - SnapKit
     - Then
 
@@ -18,7 +46,15 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JFBasicTools: f364509b85f60c7c061e9de3d99a601bc9c42a7d
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
+  JFBasicTools: 1b4ce553d8f29bb83dfbed3576397d77b9285a1f
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
 

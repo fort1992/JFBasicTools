@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JFBasicTools'
-  s.version          = '0.1.1'
-  s.summary          = '基础工具类20191121'
+  s.version          = '0.1.2'
+  s.summary          = '基础工具类20191122'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -33,6 +33,11 @@ TODO: Add long description of the pod here.
   s.source_files = 'JFBasicTools/Classes/**/*'
   s.dependency 'SnapKit'
   s.dependency 'Then'
+  s.dependency 'Kingfisher'
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
+  s.dependency 'Moya'
+  s.dependency 'HandyJSON'
   # s.resource_bundles = {
   #   'JFBasicTools' => ['JFBasicTools/Assets/*.png']
   # }

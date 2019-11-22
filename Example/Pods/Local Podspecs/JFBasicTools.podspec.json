@@ -1,9 +1,9 @@
 {
   "name": "JFBasicTools",
-  "version": "0.1.0",
-  "summary": "基础工具类20191120",
+  "version": "0.1.1",
+  "summary": "基础工具类20191121",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/fort1992@163.com/JFBasicTools",
+  "homepage": "https://github.com/fort1992/JFBasicTools",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/fort1992/JFBasicTools.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -24,6 +24,21 @@
 
     ],
     "Then": [
+
+    ],
+    "Kingfisher": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "RxCocoa": [
+
+    ],
+    "Moya": [
+
+    ],
+    "HandyJSON": [
 
     ]
   }
